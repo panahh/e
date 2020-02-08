@@ -1,0 +1,15 @@
+/*p{
+    font-family: Vazir;
+    border:12px brown ;
+    background-color: cadetblue;
+    background-position: 16px;
+}*/
+@font-face{
+    font-family: v1;
+    src:url('./Vazir-Medium.woff2');
+}
+div{
+    border: 1px solid brown;
+    padding: 100px;
+    margin: 50px;
+}

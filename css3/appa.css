@@ -1,0 +1,23 @@
+ .countainer{
+     height: 120vh;
+ }
+ 
+ .nav{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid slategrey;
+    position: fixed;
+}
+.nav li{
+    list-style: none;
+}
+.nav li:hover{
+    text-decoration: double;
+    background: tan;
+}
+.nav-item a{
+    text-decoration: none;
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}

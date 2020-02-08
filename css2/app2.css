@@ -1,0 +1,21 @@
+.box{
+    border:1px solid black;
+    background:blue;
+    display: block;
+}
+.box1{
+    border: 12px currentColor chartreuse;
+    padding: 50px 0px 50px 0px;
+    margin: 5px 4px 3px 2px;
+    background-color: coral;
+    display: inline-block;
+}
+.box2{
+    border-bottom: 1px solid black;
+    padding-top: 12px;
+    margin-left: 15px;
+    background: chartreuse;
+}
+.blue{
+    height: 120vh;
+}
