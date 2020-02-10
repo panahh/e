@@ -37,7 +37,77 @@ li a:hover{
 .courses{
     display: flex;
     flex-direction: column;
+justify-content: space-around;
 }
-.course-header{
+.countainer{
+    padding: 10px;
+}
+.course-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    border: 3px solid steelblue;
+}
+.card-header{
+    background-color: rgb(190, 178, 148);
+}
+/* .card-body{
+    border: 12px solid springgreen;
+    border-radius: 12%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+} */
+.card-footer{
+    border: 1px solid deeppink;
+    background-color: dodgerblue;
+    box-shadow: goldenrod;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+.button:hover{
+    background-color: tomato;
+    color: #ccc;
+    width: 100%;
+}
+.koala{
+    border-radius: 50%;
+}
+.cardd-partner{
+    border: 1px solid sienna;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+.card-partnerr-header{
+background-image: url(../وایی.jpg);
+background-repeat: repeat;
+background-position: center; 
+width: 200px;
+height: 400px;
+justify-content: space-around;
+}
+.card-partnerr-body{
+    background-color: violet;
+    border: 1px solid steelblue;
+     width: 200px;
+    height: 40px;
+    justify-content: space-around;
+}
+.card-partnerr-footer{
+    text-align: justify;
+    background: teal;
+    color: blue;
+    width: 200px;
+    height: 40px;
+    justify-content: space-around;
+}
+.para:hover{
+    background: brown;
+    color: chartreuse;
 
 }
